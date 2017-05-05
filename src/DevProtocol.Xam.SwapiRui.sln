@@ -1,17 +1,17 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevProtocol.Xam.SwapiRui.UI", "DevProtocol.Xam.SwapiRui\DevProtocol.Xam.SwapiRui.UI.csproj", "{9F086F8F-EB1F-4934-B0F1-7CE60FC93976}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevProtocol.Xam.SwapiRui.UI", "DevProtocol.Xam.SwapiRui.UI\DevProtocol.Xam.SwapiRui.UI.csproj", "{9F086F8F-EB1F-4934-B0F1-7CE60FC93976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevProtocol.Xam.SwapiRui.iOS", "iOS\DevProtocol.Xam.SwapiRui.iOS.csproj", "{B4E6EF2D-682A-4195-A19A-74AC91C738F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevProtocol.Xam.SwapiRui.iOS", "DevProtocol.Xam.SwapiRui.iOS\DevProtocol.Xam.SwapiRui.iOS.csproj", "{B4E6EF2D-682A-4195-A19A-74AC91C738F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevProtocol.Xam.SwapiRui.Droid", "Droid\DevProtocol.Xam.SwapiRui.Droid.csproj", "{B9FACEBD-6AD5-4AB6-B403-0F2BA594D18B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevProtocol.Xam.SwapiRui.Droid", "DevProtocol.Xam.SwapiRui.Droid\DevProtocol.Xam.SwapiRui.Droid.csproj", "{B9FACEBD-6AD5-4AB6-B403-0F2BA594D18B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{ECFCB84D-E70C-448E-8637-29B6C4414AAE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{206809C0-E7EE-4622-86A1-E9DCFE4A090A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevProtocol.Xam.SwapiRui.Core", "DevProtocol.Xam.SwapiRui\DevProtocol.Xam.SwapiRui.Core\DevProtocol.Xam.SwapiRui.Core.csproj", "{98F8A6F9-E042-453E-8855-A14593D956F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevProtocol.Xam.SwapiRui.Core", "DevProtocol.Xam.SwapiRui.Core\DevProtocol.Xam.SwapiRui.Core.csproj", "{98F8A6F9-E042-453E-8855-A14593D956F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

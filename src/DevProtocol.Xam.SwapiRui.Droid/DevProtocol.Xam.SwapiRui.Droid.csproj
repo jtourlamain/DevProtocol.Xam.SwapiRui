@@ -129,16 +129,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DevProtocol.Xam.SwapiRui\DevProtocol.Xam.SwapiRui.csproj">
-      <Project>{9F086F8F-EB1F-4934-B0F1-7CE60FC93976}</Project>
-      <Name>DevProtocol.Xam.SwapiRui.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DevProtocol.Xam.SwapiRui\DevProtocol.Xam.SwapiRui.Core\DevProtocol.Xam.SwapiRui.Core.csproj">
-      <Project>{98F8A6F9-E042-453E-8855-A14593D956F2}</Project>
-      <Name>DevProtocol.Xam.SwapiRui.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -157,6 +147,16 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevProtocol.Xam.SwapiRui.UI\DevProtocol.Xam.SwapiRui.UI.csproj">
+      <Project>{9F086F8F-EB1F-4934-B0F1-7CE60FC93976}</Project>
+      <Name>DevProtocol.Xam.SwapiRui.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevProtocol.Xam.SwapiRui.Core\DevProtocol.Xam.SwapiRui.Core.csproj">
+      <Project>{98F8A6F9-E042-453E-8855-A14593D956F2}</Project>
+      <Name>DevProtocol.Xam.SwapiRui.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.4.231\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.231\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
