@@ -1,4 +1,6 @@
-﻿using DevProtocol.Xam.SwapiRui.UI.Pages.Old;
+﻿
+using DevProtocol.Xam.SwapiRui.UI.Pages.Old;
+using DevProtocol.Xam.SwapiRui.UI.Pages.People;
 using Xamarin.Forms;
 
 namespace DevProtocol.Xam.SwapiRui.UI
@@ -9,7 +11,8 @@ namespace DevProtocol.Xam.SwapiRui.UI
 		{
 			InitializeComponent();
 
-			MainPage = new OldPage();
+			//MainPage = new OldPage();
+			MainPage = new PersonPage();
 		}
 
 		protected override void OnStart()

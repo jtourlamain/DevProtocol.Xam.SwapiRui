@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="DevProtocol.Xam.SwapiRui.UI.Pages.People.PersonPage">
+	<ContentPage.Content>
+        <StackLayout Padding="0,30,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                	<ColumnDefinition Width="*" />
+                	<ColumnDefinition Width="2*" />
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+				</Grid.RowDefinitions>
+
+				<Label Text="FirstName" />
+				<Entry Text="{Binding FirstName}" Grid.Column="1" />
+
+				<Label Text="LastName" Grid.Row="1" />
+				<Entry Text="{Binding LastName}" Grid.Row="1" Grid.Column="1" />
+
+				<Label Text="{Binding FullName}" Grid.Row="2" Grid.Column="1" />
+
+				<Button x:Name="SaveButton" Text="Save" Grid.Row="3" Grid.ColumnSpan="2" />
+            </Grid>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
