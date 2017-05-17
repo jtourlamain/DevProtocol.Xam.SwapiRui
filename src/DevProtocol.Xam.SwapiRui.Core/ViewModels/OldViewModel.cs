@@ -21,6 +21,7 @@ namespace DevProtocol.Xam.SwapiRui.Core.ViewModels
 					return;
 				firstName = value;
 				OnPropertyChanged();
+				//Result = FirstName + " " + LastName;
 			}
 		}
 
@@ -34,6 +35,7 @@ namespace DevProtocol.Xam.SwapiRui.Core.ViewModels
 					return;
 				lastName = value;
 				OnPropertyChanged();
+				//Result = FirstName + " " + LastName;
 			}
 		}
 
