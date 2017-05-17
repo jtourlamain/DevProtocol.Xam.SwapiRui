@@ -11,15 +11,28 @@ namespace DevProtocol.Xam.SwapiRui.Core.ViewModels
 	{
 		public event PropertyChangedEventHandler PropertyChanged = delegate { };
 
-		private string userName = "";
-		public string UserName
+		private string firstName = "";
+		public string FirstName
 		{
-			get { return userName; }
+			get { return firstName; }
 			set
 			{
-				if (EqualityComparer<string>.Default.Equals(userName, value))
+				if (EqualityComparer<string>.Default.Equals(firstName, value))
 					return;
-				userName = value;
+				firstName = value;
+				OnPropertyChanged();
+			}
+		}
+
+		private string lastName = "";
+		public string LastName
+		{
+			get { return lastName; }
+			set
+			{
+				if (EqualityComparer<string>.Default.Equals(lastName, value))
+					return;
+				lastName = value;
 				OnPropertyChanged();
 			}
 		}
@@ -37,18 +50,15 @@ namespace DevProtocol.Xam.SwapiRui.Core.ViewModels
 			}
 		}
 
-		private ICommand goCommand;
-
-
-
-		public ICommand GoCommand
+		private ICommand saveCommand;
+		public ICommand SaveCommand
 		{
-			get { return goCommand ?? (goCommand = new Command(() => ExecuteGoCommand())); }
+			get { return saveCommand ?? (saveCommand = new Command(() => ExecuteSaveCommand())); }
 		}
 
-		private void ExecuteGoCommand()
+		private void ExecuteSaveCommand()
 		{
-			Result = UserName;
+			Result = $"Saved {FirstName} {LastName}";
 		}
 
 		protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)

@@ -3,12 +3,31 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="DevProtocol.Xam.SwapiRui.UI.Pages.Old.OldPage">
 	<ContentPage.Content>
-        <StackLayout HorizontalOptions="FillAndExpand" 
-				VerticalOptions="CenterAndExpand" 
-				Padding="30">
-            <Entry Text="{Binding UserName}" />
-            <Button Text="Go" Command="{Binding GoCommand}" />
-            <Label Text="{Binding Result}" />
+        <StackLayout HorizontalOptions="CenterAndExpand" 
+			VerticalOptions="CenterAndExpand" 
+			Padding="30">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                	<ColumnDefinition Width="*" />
+                	<ColumnDefinition Width="2*" />
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+				</Grid.RowDefinitions>
+
+				<Label Text="FirstName" />
+				<Entry Text="{Binding FirstName}" Grid.Column="1" />
+
+				<Label Text="LastName" Grid.Row="1" />
+				<Entry Text="{Binding LastName}" Grid.Row="1" Grid.Column="1" />
+
+				<Button Command="{Binding SaveCommand}" Text="Save" Grid.Row="2" Grid.ColumnSpan="2" />
+
+				<Label Text="{Binding Result}" Grid.Row="3" Grid.ColumnSpan="2" />
+            </Grid>
         </StackLayout>
-    </ContentPage.Content>
+	</ContentPage.Content>
 </ContentPage>
