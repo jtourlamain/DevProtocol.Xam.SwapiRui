@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using DevProtocol.Xam.SwapiRui.Core.ViewModels;
 using Xamarin.Forms;
 
 namespace DevProtocol.Xam.SwapiRui.UI.Pages.Old
@@ -10,6 +10,7 @@ namespace DevProtocol.Xam.SwapiRui.UI.Pages.Old
         public OldPage()
         {
             InitializeComponent();
+			this.BindingContext = new OldViewModel();
         }
     }
 }

@@ -11,10 +11,6 @@ namespace DevProtocol.Xam.SwapiRui.Core.ViewModels
 	{
 		public event PropertyChangedEventHandler PropertyChanged = delegate { };
 
-		public OldViewModel()
-		{
-		}
-
 		private string userName = "";
 		public string UserName
 		{
