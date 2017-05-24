@@ -53,12 +53,14 @@
     <Compile Include="Pages\People\PersonPage.xaml.cs">
       <DependentUpon>PersonPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\SwNavigationPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
     <Folder Include="Pages\Home\" />
     <Folder Include="Pages\Old\" />
     <Folder Include="Pages\People\" />
+    <Folder Include="Controls\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
