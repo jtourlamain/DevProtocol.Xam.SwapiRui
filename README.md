@@ -5,12 +5,15 @@
 A Xamarin Forms Demo application using ReactiveUI
 
 
-
-## Platform support
-- iOS (min 10)
-- Android (min 5.0)
-
 ## Contributors
 
 - Jan Tourlamain
 
+## More info
+[https://www.devprotocol.com/reactiveui-tutorial-for-xamarin-the-viewmodel/](https://www.devprotocol.com/reactiveui-tutorial-for-xamarin-the-viewmodel/)
+
+## License
+
+The MIT License (MIT) Copyright (c) 2016 Refractored LLC / Jan Tourlamain
+
+See latest License file [here](https://github.com/jtourlamain/DevProtocol.Xam.SwapiRui.git/blob/master/License).
