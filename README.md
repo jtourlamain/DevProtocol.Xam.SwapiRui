@@ -16,4 +16,4 @@ A Xamarin Forms Demo application using ReactiveUI
 
 The MIT License (MIT) Copyright (c) 2016 Refractored LLC / Jan Tourlamain
 
-See latest License file [here](https://github.com/jtourlamain/DevProtocol.Xam.SwapiRui.git/blob/master/License).
+See latest License file [here](https://github.com/jtourlamain/DevProtocol.Xam.SwapiRui/blob/master/LICENSE.md).
