@@ -10,7 +10,7 @@ A Xamarin Forms Demo application using ReactiveUI
 - Jan Tourlamain
 
 ## More info
-[https://www.devprotocol.com/reactiveui-tutorial-for-xamarin-the-viewmodel/](https://www.devprotocol.com/reactiveui-tutorial-for-xamarin-the-viewmodel/)
+[https://www.devprotocol.com/2017/07/20/reactiveui-tutorial-for-xamarin-the-viewmodel.html](https://www.devprotocol.com/2017/07/20/reactiveui-tutorial-for-xamarin-the-viewmodel.html)
 
 ## License
 
